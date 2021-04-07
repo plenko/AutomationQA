@@ -1,4 +1,5 @@
-public class task1_2 {
+public class Task1_2 {
+
     public static void main(String[] args) {
 
         //2. Создайте переменную grade со значением 10

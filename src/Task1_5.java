@@ -1,4 +1,5 @@
-public class task1_5 {
+public class Task1_5 {
+
     public static void main(String[] args) {
         /*Цена товара А = 1000
 Цена товара Б = 500

@@ -1,4 +1,4 @@
-public class task1_6 {
+public class Task1_6 {
 
     public static void main(String[] args) {
         //а) товар А стоит 200 руб и на него скидка 15%, а товар Б стоит 30 руб.
