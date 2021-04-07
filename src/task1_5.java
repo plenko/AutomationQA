@@ -10,8 +10,7 @@ public class task1_5 {
         int  PriceProductB = 500;
         double Discount = 0.1;
 
-        System.out.println("Сумма товара А со скидкой " + (PriceProductA - PriceProductA*Discount) + ". Сумма скидки " + PriceProductA*Discount);
-        System.out.println("Сумма товара B со скидкой " + (PriceProductB - PriceProductB*Discount) + ". Сумма скидки " + PriceProductB*Discount);
+        System.out.println("Сумма товара  со скидкой " + (PriceProductA + PriceProductB)*(1 - Discount) + ". Сумма скидки " + (PriceProductA + PriceProductB)*Discount);
 
     }
 }
