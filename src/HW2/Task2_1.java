@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task2_1 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
         /*Имеется прямоугольное отверстие размерами a и b.
 Определите можно ли его полностью закрыть круглой картонкой радиусом r.
 Вывести результат на экран.
