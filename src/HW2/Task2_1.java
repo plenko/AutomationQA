@@ -12,15 +12,6 @@ public class Task2_1 {
 
 Данные a, b и r ввести с консоли.
 */
-       /* System.out.print("Введите радиус r: ");
-        int r = System.in.read();
-
-        System.out.print("Введите сторону a: ");
-        int a = System.in.read();
-
-        System.out.print("Введите сторону b: ");
-        int b = System.in.read();*/
-
         Scanner in = new Scanner(System.in);
         System.out.print("Введите радиус: ");
         int r = in.nextInt();

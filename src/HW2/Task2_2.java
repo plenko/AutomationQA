@@ -35,7 +35,7 @@ public class Task2_2 {
             case 9: dayOfWeek = "Вторник";
                 break;
             default:
-                throw new IllegalStateException("Unexpected value: " + d);
+                dayOfWeek = "Введено некорректное значение";
         }
         System.out.println(dayOfWeek);
 
