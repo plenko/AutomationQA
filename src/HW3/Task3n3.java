@@ -11,10 +11,9 @@ public class Task3n3 {
         int hour = 0;
 
         while ( hour < 25){
-            if (hour % 3 != 0) { hour = hour + 1; continue;}
             a = a * 2;
             System.out.println("На " + hour + " часу будет " + a + " амеб" );
-
+            hour = hour + 3;
         }
 
     }
