@@ -17,10 +17,10 @@ public class Task3n2 {
         double deposit = in.nextDouble();
         System.out.print("Введите количество месяцев: ");
         int month = in.nextInt();
-        double perRate  = 0.1;
+        double percRate  = 0.17;
 
         for (int i = 0; i < month; i++) {
-            deposit = deposit + deposit * perRate;
+            deposit = deposit + deposit * percRate;
         }
         System.out.println("Cумма депозита через " + month + " месяцев будет равна " + deposit);
     }
