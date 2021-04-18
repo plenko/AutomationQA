@@ -9,17 +9,10 @@ import java.util.Scanner;
 public class Task4n2 {
 
     public static void main(String[] args) throws IOException {
-       /* int[] array = new int[5];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = (int) Math.round((Math.random() * 20) - 5);
-            System.out.print(" " + array[i]);
-        }
-        System.out.println();*/
 
-        int n,arr[];
         Scanner in = new Scanner(System.in);
         System.out.print("Введите размер массива: ");
-        n = in.nextInt();
+        int n = in.nextInt();
         int[] array = new int[n];
         for (int i=0;i<array.length;i++)
             array[i] = (int) ( Math.random() * 10);
